@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+}
+body{/* add a background image to the body */
+    box-sizing: border-box;
+   font-family: Cubano; 
+    min-height: 100vh;
+    background: url(Run06-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+ 
+.Main-bar{
+     
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    /* add style to the logo */
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 80px; 
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+}
+.Main-bar ul{  /* styling main-bar */
+display: inline-flex;
+list-style: none;
+}
+.Main-bar ul li{ /* add style main-bar */
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.Main-bar ul li a{
+text-decoration: none;
+color:rgb(255, 0, 0);
+}
+.active,.Main-bar ul li:hover{
+      /* make main-bar active */
+    background: rgb(34, 9, 123);
+    border-radius: 3x;
+}
+.Race-menue-1{
+    display: none;
+    font-family: sans-serif;
+}
+.Main-bar ul li:hover .Race-menue-1{
+display: block;
+position: absolute;
+background: rgb(0, 0, 0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.Main-bar ul li:hover .Race-menue-1 ul{
+    display: block;
+    margin: 10px;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li{
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li:last-child{
+    border-bottom:none;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li a:hover{
+    color: red;
+}
+h1{
+text-align: center;
+color: rgb(255, 5, 5);
+margin-top: 200px;
+font-family: Cubano;
+font-size: 50px;
+}
+
+.article{
+    /* add style to article */
+    margin-top: 50px;
+    background-color: white;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.article h2{
+    margin-top: 60px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.article #paragraph{
+font-family: Geneva;
+color: rgb(23, 21, 21);
+font-size: 20px;
+margin-left: 10px;
+}
+.article h3{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: Geneva;
+    margin-left: 10px;
+}
+
+
+.article ul li{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: Geneva;
+    margin-left: 10px;
+}
+
+.article p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: Geneva;
+    margin-left: 10px;
+}
+.footer {
+      /* add style to th footer */
+
+background-color: rgb(8, 6, 6);
+padding: 10px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+    
+</style>
+<body>
+  <!---this is the start of main-bar-->
+  <div class="Main-bar">
+      
+    <img  class="logo" src="logo_web_trans.png" alt="logo">
+    <!----logo stop there-->
+              <ul>
+                <li><a href="Final Project Group 6.Html">Home</a></li>
+                <li><a href="#">Race</a>
+                <div class="Race-menue-1">
+                        <ul>
+                            <li><a href="Anouncement Liberia Marathon 2023.Html">Anouncement Liberia Marathon 2023</a></li>
+                            <li><a href="Race Course.html">Race Course</a></li>
+                            <li><a href="Registration.html">Registration</a></li>
+                              <li><a href="Histtory of the Liberia Marathon.html">History of the Liberia Marathon</a></li>
+                         <!---Race end here-->
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">About Us</a>
+                    <div class="Race-menue-1">
+                        <ul>
+                            <li><a href="Organizing Team.html">Organizing Team</a></li>
+                            <li><a href="Shakeholder.html">Shakeholder</a></li>
+                                <li><a href="Supporters and Partners.html">Supporters and Partners</a></li>
+                             <!--About us  end there-->
+                         </ul>
+                    </div></li>
+                     <!--Media start here-->
+                <li><a href="#">Media</a>
+                <div class="Race-menue-1">
+                    <ul>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                     <!--Media end here-->
+                    </ul>
+                </div></li>
+                  <!--Registration start here-->
+                <li><a href="Registration.html">Registration</a></li>
+                     <!-- Registration end here-->
+
+    </ul>  
+</div>
+    <h1 >REGISTRATION</h1>
+<!--Article start here-->
+    <article>
+        <div class="article">      
+              <h2 style="text-align: center;">DETAIL ABOUT REGISTRATION</h2>
+             
+        <p id="paragraph">The registration for the Liberia Marathon is now open and will close on Monday, December 26. Registrations after<br> December 26 are not possible. </p>
+<br>
+ <br>
+ <h3>REGISTRATION SPOTS IN MONROVIA </h3>
+ 
+ <p>You can register at the following locations:<br>
+
+    👉🏿MINISTRY OF YOUTH AND SPORTS / SKD SPORTSCOMPLEX<br>
+    Monday to Friday<br>
+    9am – 4pm (inside the Ministry, Office of the Assistant Director of Sports)<br>
+    Saturday /Sunday<br>
+    7am -9am (outside, in front of main entrance)</p>
+<p> 👉🏿INVINCBLE SPORTS PARK (in the Sport Park Office, next to the Minimart)<br>
+    Monday – Friday<br>
+    10am – 6pm<br>
+     <br>
+    Saturday (registration in the parking lot and from 12noon in the office)<br>
+    7am- 5pm<br>
+     <br>
+    Sunday (registration in the parking lot)<br>
+    2pm – 4pm<br>
+     <br>
+    👉🏿MONROVIA CITY HALL<br>
+    Monday – Friday<br>
+    9am – 3pm (at the reception)<br>
+     <br>
+    👉🏿NEW!!!🤩 PAYNESVILL CITY HALL (Palava Hut)<br>
+    Monday – Friday<br>
+    8am – 4pm<br>
+     <br>
+    👉🏿NEW!!!🤩 AFROPOLITAN FASHION HOUSE (Benson Street, corner Newport Street)<br>
+    Monday – Friday<br>
+    9am – 5pm<br>
+    <h4>ONLINE REGISTRATIONS</h4>
+    <p id="paragraph2">If you prefer to register online, you can currently do that via Paypal or a Credit Card. Please <b>click here to start <br><a href="https://my.raceresult.com/205600/">the registration process.</b></a></p>
+    <br>
+     <h4>REGISTRATION FEES</h4>
+     <p>Secure your discount by registering with LonestarCell/MTN MobileMoney.</p>
+    <img src="Registration-Fees_general-scaled-e1655931956724-1024x456.jpg" alt="Registration fees">
+        </div>
+    </article>
+
+    <!--Article end here-->
+        <footer>
+            
+            <div class="footer">
+            
+                <img id="logo" src="logo_web_trans.png" alt="marathon" width="120px" height="120px"; margin-left="5px">
+                <p>The Liberia Marathon event consists<br> of three races in one. The event<br> includes a full marathon, a 10K foot <br> race and a 10k race for persons on <br>wheelchairs or crutches. Runners <br>   of all skill levels and ages are<br> encouraged to participate in any race.</p>
+          <br>
+          <h3>Liberia</h3>
+          <p>Located in West Africa on the Atlantic<br> coast, Liberia is known for the<br> historic capital city of Monrovia, <br>beach towns along its sunny coast, <br>abundant natural beautiful<br> landscape, and a wealth of warmth <br>and culture.</p>
+            <hr> 
+          <span style="display: inline-block; vertical-align: middle; font-family: Montserrat,sans-serif; letter-spacing: -.05em; text-transform: uppercase; font-weight: 700"; margin-left: 20px; >FOLLOW US on facebook <a href="https://web.facebook.com/LiberiaMarathon">Liberia Marathon</a>
+          <br>Phone:  +231886670426 <br>
+          <a href="mailto:info@liberiamarathon.org">Email Us</a></span> </div>
+    </div>
+      </footer>  
+</body>
+</html>

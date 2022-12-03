@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group (6) Project</title>
+<Style>
+  *{ 
+    margin:0;
+    padding:0; 
+}
+body{ /* add a background image to the body */
+    box-sizing: border-box;
+   font-family: Cubano; 
+    min-height: 100vh;
+    background: url(Run06-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+ 
+.Main-bar{
+    /* add color to the main-bar */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    /* add style to the logo */
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 80px; 
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+}
+.Main-bar ul{
+    /* styling main-bar */
+display: inline-flex;
+list-style: none;
+}
+.Main-bar ul li{
+    /* add style main-bar */
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.Main-bar ul li a{
+text-decoration: none;
+color:rgb(255, 0, 0);
+}
+.active,.Main-bar ul li:hover{
+    /* make main-bar active */
+    background: rgb(34, 9, 123);
+    border-radius: 3x;
+}
+.Race-menue-1{
+    display: none;
+    font-family: sans-serif;
+}
+.Main-bar ul li:hover .Race-menue-1{
+display: block;
+position: absolute;
+background: rgb(0, 0, 0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.Main-bar ul li:hover .Race-menue-1 ul{
+    display: block;
+    margin: 10px;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li{
+    width:150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li:last-child{
+    border-bottom:none;
+}
+.Main-bar ul li:hover .Race-menue-1 ul li a:hover{
+    color: red;
+}
+
+
+.slide h1{
+Position: absolute; 
+font-size: 100px;
+width:100%;
+color: red;
+text-align:center;
+margin-top: 300px;
+}
+
+#button{
+    margin-top: 530px;
+    font-size: 40px;
+    color: rgb(247, 247, 240);
+    text-align: center;
+    margin-left: 400px; /* add style to the button */
+    border: none;
+    background-color: rgb(203, 19, 19);
+    display: inline-block;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+input[type=text], select, textarea {
+    /* add style to the  form */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize:horizontal;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 3px;
+  background-color: #e8e2e2;
+  padding: 20px;
+}
+h2{
+    color: rgb(59, 6, 248);
+    font-size: 30px;
+    margin-top: 100px;
+    color: rgb(247, 247, 240);
+    text-align: center;
+    border: none;
+    background-color: rgb(203, 19, 19);
+    display: inline-block;
+    padding: 15px 32px;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+.footer {
+    /* add style to th footer */
+
+    background-color: rgb(8, 6, 6);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+ }
+ 
+</Style>
+
+
+</head>
+<body> 
+    <!---this is the start of main-bar-->
+   <div class="Main-bar">
+      
+    <img  class="logo" src="logo_web_trans.png" alt="logo">
+  <!----logo stop there-->
+     
+              <ul>
+                <li><a href="inal Project Group 6.Html">Home</a></li>
+                <li><a href="#">Race</a>
+                <div class="Race-menue-1">
+                  
+                        <ul>
+                            <li><a href="Anouncement Liberia Marathon 2023.Html">Anouncement Liberia Marathon 2023</a></li>
+                            <li><a href="Race Course.html">Race Course</a></li>
+                            <li><a href="Registration.html">Registration</a></li>
+                              <li><a href="Histtory of the Liberia Marathon.html">History of the Liberia Marathon</a></li>
+                        <!---Race end here-->
+                            </ul>
+                    </div>
+                </li>
+                <!---About us start here-->
+                <li><a href="#">About Us</a>
+                    <div class="Race-menue-1">
+                        <ul>
+                            <li><a href="Organizing Team.html">Organizing Team</a></li>
+                            <li><a href="Shakeholder.html">Shakeholder</a></li>
+                            <li><a href="Supporters and Partners.html">Supporters and Partners</a></li>
+                          
+                             <!--About us  end there-->
+                        </ul>
+                    </div></li>
+                    <!---Media start here-->
+                <li><a href="#">Media</a>
+                <div class="Race-menue-1">
+                    <ul>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                      
+                    <!--Media end here-->
+                    </ul>
+                </div></li>
+                <!--Registration start here-->
+                <li><a href="Registration.html">Registration</a></li>
+                <!-- Registration end here-->
+
+    </ul>  
+</div>
+        <div class= "slide">
+        
+
+    <h1>REGISTRATION <br>
+    NOW OPEN</h1>
+    <slide class="button">
+    <a id="button" href="Registration.html">Click here!</a>
+</div>
+<!--Contact form start here-->
+<h2>Contact Form</h2>
+<div class="container">
+    <form action="form">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Liberia</option>
+        <option value="canada">Guinea</option>
+        <option value="usa">Sierra Leone</option>
+        <option value="usa">Ivory Coast</option>
+        <option value="usa">Ghana</option>
+        <option value="usa">Nigera</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+    <!--Contact form end here--->
+  </div>
+  <br>
+  <br>
+  <!---Footer start from here-->
+  <footer>
+    <div class="footer">
+    
+        <img id="logo" src="logo_web_trans.png" alt="marathon" width="120px" height="120px"; margin-left="5px">
+        <p>The Liberia Marathon event consists<br> of three races in one. The event<br> includes a full marathon, a 10K foot <br> race and a 10k race for persons on <br>wheelchairs or crutches. Runners <br>   of all skill levels and ages are<br> encouraged to participate in any race.</p>
+  <br>
+  <h3>Liberia</h3>
+  <p>Located in West Africa on the Atlantic<br> coast, Liberia is known for the<br> historic capital city of Monrovia, <br>beach towns along its sunny coast, <br>abundant natural beautiful<br> landscape, and a wealth of warmth <br>and culture.</p>
+    <hr> 
+    <br>
+  <span style="display: inline-block; vertical-align: middle; font-family: Montserrat,sans-serif; letter-spacing: -.05em; text-transform: uppercase; font-weight: 700"; margin-left: 20px; >FOLLOW US on facebook <a href="https://web.facebook.com/LiberiaMarathon">Liberia Marathon</a>
+  <br>Phone:  +231886670426 <br>
+  <a href="mailto:info@liberiamarathon.org">Email Us</a></span>
+</div>
+</div>
+  </footer>
+  <!--Footer end here-->
+</body>
+</html>
